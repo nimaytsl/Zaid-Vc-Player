@@ -13,7 +13,7 @@ admins = {}
 
 SESSION_NAME = getenv("SESSION_NAME")
 
-if str(getenv("STRING_SESSION2")).strip() == "":
+if str(getenv("STRING_SESSION2")).strip() == "BQBQeqhDKj0Afpt9cH4u_C48Ken7lfgi3HyJnszr-aASSkvEDXRWRIhO1FqKJhJb11B7kOykAJyIH7ghFbYIVP82He38DmgRu7qN-wUYexJ3p-HR62mT7DWGs_UfS1-lpPUjofRxQ3B5xwiqj9nNr5I_q_uB0vbPD5WuKbvt15TpvQzDrS0UdKEITphs_YDDI25T0gdS-TstZyBUPk7LlmVOjyjBx_VLO8cqfhif1P5oeSZnfpcir6Dd32x7boWGEZS5w9EKufqrJjoc2-2-9c2q0cU9cFPZaRGhn4bsy5qxtMl9_A1JKCSJpOh9mlo09sUb3LAFUngS1nxU3NX7wb6eAAAAAUAyzEEA":
     SESSION2 = str(None)
 else:
     SESSION2 = str(getenv("STRING_SESSION2"))
@@ -33,16 +33,16 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-BOT_NAME = getenv("BOT_NAME", "Umk")
+BOT_TOKEN = getenv("BOT_TOKEN", "5718269633:AAFgbTa6uFuuxAr9Sc0gfF78R5lfU7HjvFc")
+BOT_NAME = getenv("BOT_NAME", "Mr.Eric")
 
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
+API_ID = int(getenv("API_ID", "17674920"))
+API_HASH = getenv("API_HASH", "4c55df5c8d646c88aa4bbe177761117c")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority")
 OWNER_NAME = getenv("OWNER_NAME", "Zaid")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Timesisnotwaiting")
-ALIVE_NAME = getenv("ALIVE_NAME", "Zaid")
-BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Plexitics")
+ALIVE_NAME = getenv("ALIVE_NAME", "Mr.Eric")
+BOT_USERNAME = getenv("BOT_USERNAME", "Mr_Eric_Robot")
 OWNER_ID = getenv("OWNER_ID", "1669178360")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Zaid2_Assistant")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
